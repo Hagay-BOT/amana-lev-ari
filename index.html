@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="תמצות הדברים החשובים לצוות לב ארי. קוראים, חותמים, ושולחים לחבר'ה.">
+<meta property="og:title" content="האמנה של לב ארי">
+<meta property="og:description" content="יאללה יא שקית, תאשר.">
+<meta property="og:type" content="website">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}</style>
+<title>האמנה שלנו</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellefair&family=Heebo:wght@300;400;500;700&family=Amatic+SC:wght@700&display=swap">
+<style>
+  /* Layout: one white dotted page (like the notebook the team wrote on), a quiet list of commitments, and a signing block at the end with a runaway "no". Single committed light look. */
+  :root {
+    --paper: #ffffff;
+    --dot: #dcd7ea;
+    --ink: #1c1830;
+    --muted: #5f5a76;
+    --marker: #5b3cc4;
+    --marker-soft: #efeafc;
+    --line: #e7e3f1;
+    --m1: #6a3fe0; --m2: #ff5a5f; --m3: #00a6a6; --m4: #f5a400; --m5: #2fb24c; --m6: #2d7ff9; --m7: #e8489b; --m8: #ff7a1a;
+    --display: "Bellefair", "Frank Ruhl Libre", Georgia, serif;
+    --body: "Heebo", "Segoe UI", Arial, sans-serif;
+    --hand: "Amatic SC", "Heebo", cursive;
+    color-scheme: light;
+  }
+  [hidden] { display: none !important; }
+  html { height: 100%; }
+  body {
+    min-height: 100%; box-sizing: border-box; direction: rtl;
+    background-color: var(--paper);
+    background-image: radial-gradient(var(--dot) 1.1px, transparent 1.3px);
+    background-size: 22px 22px;
+    color: var(--ink); font-family: var(--body); font-weight: 400;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 48px 96px;
+    overflow-x: hidden;
+  }
+  main { max-width: 620px; margin: 0 auto; display: grid; gap: 56px; }
+
+  header { display: grid; gap: 18px; }
+  .eyebrow { justify-self: start; font-size: .85rem; font-weight: 500; color: #fff; background: var(--m2); padding: 4px 12px; border-radius: 999px; transform: rotate(-2deg); }
+  h1 { font-family: var(--display); font-weight: 400; font-size: clamp(3rem, 13vw, 5.2rem); line-height: .95; margin: 0; text-wrap: balance; }
+  h1 .scribble { position: relative; white-space: nowrap; }
+  h1 .scribble svg { position: absolute; inset-inline: 0; bottom: -.12em; width: 100%; height: .32em; overflow: visible; }
+  h1 .scribble path { fill: none; stroke: var(--marker); stroke-width: 5; stroke-linecap: round; stroke-dasharray: 420; stroke-dashoffset: 420; animation: draw 1.1s .5s cubic-bezier(.65,0,.35,1) forwards; }
+  .lead { font-size: 1.12rem; line-height: 1.75; color: var(--muted); margin: 0; max-width: 46ch; text-wrap: pretty; }
+
+  ol.pact { list-style: none; margin: 0; padding: 0; display: grid; background: rgba(255,255,255,.86); border-top: 1px solid var(--line); }
+  .pact li { display: grid; grid-template-columns: 2.4rem 1fr; gap: 4px 14px; padding: 22px 0; border-bottom: 1px solid var(--line); animation: rise .6s cubic-bezier(.22,.61,.36,1) both; }
+  .pact li:nth-child(1) { animation-delay: .05s } .pact li:nth-child(2) { animation-delay: .1s } .pact li:nth-child(3) { animation-delay: .15s } .pact li:nth-child(4) { animation-delay: .2s }
+  .pact li:nth-child(5) { animation-delay: .25s } .pact li:nth-child(6) { animation-delay: .3s } .pact li:nth-child(7) { animation-delay: .35s } .pact li:nth-child(8) { animation-delay: .4s }
+  .pact li:nth-child(1) { --c: var(--m1) } .pact li:nth-child(2) { --c: var(--m2) } .pact li:nth-child(3) { --c: var(--m3) } .pact li:nth-child(4) { --c: var(--m4) }
+  .pact li:nth-child(5) { --c: var(--m5) } .pact li:nth-child(6) { --c: var(--m6) } .pact li:nth-child(7) { --c: var(--m7) } .pact li:nth-child(8) { --c: var(--m8) }
+  .tick { grid-row: span 2; width: 2.4rem; height: 2.4rem; border-radius: 50%; display: grid; place-items: center; background: var(--c); color: #fff; transform: rotate(-6deg); box-shadow: 0 6px 14px -6px var(--c); }
+  .tick svg { width: 18px; height: 18px; }
+  .pact h2 { font-family: var(--display); font-weight: 400; font-size: 1.65rem; line-height: 1.2; margin: 0; justify-self: start; padding-inline: 2px; background: linear-gradient(transparent 62%, color-mix(in srgb, var(--c) 28%, transparent) 62%, color-mix(in srgb, var(--c) 28%, transparent) 92%, transparent 92%); }
+  .pact p { margin: 0; font-size: 1.02rem; line-height: 1.65; color: var(--muted); min-width: 0; }
+
+  section.sign { display: grid; gap: 20px; background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 30px 22px; box-shadow: 0 24px 60px -30px rgba(60,40,140,.28); }
+  .sign h2 { font-family: var(--display); font-weight: 400; font-size: 2.1rem; margin: 0; line-height: 1.1; }
+  .sign .sub { margin: 0; color: var(--muted); line-height: 1.6; }
+  label.field { display: grid; gap: 8px; font-size: .85rem; font-weight: 500; color: var(--muted); }
+  #name { font: 400 1.15rem var(--body); color: var(--ink); background: transparent; border: 0; border-bottom: 1.5px solid var(--line); padding: 10px 2px; border-radius: 0; outline: none; transition: border-color .2s; }
+  #name:focus { border-bottom-color: var(--marker); }
+  #name::placeholder { color: #8a85a0; }
+  .hint { min-height: 1.4em; margin: 0; color: var(--marker); font-weight: 400; }
+  .choices { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; min-height: 58px; }
+  button { font-family: var(--body); cursor: pointer; }
+  #yes { font-size: 1.1rem; font-weight: 500; color: #fff; background: linear-gradient(110deg, var(--m1), var(--m7) 45%, var(--m8)); background-size: 200% 100%; animation: shimmer 4s ease-in-out infinite alternate; border: 0; border-radius: 999px; padding: 16px 34px; box-shadow: 0 12px 28px -10px rgba(91,60,196,.6); transition: transform .18s, box-shadow .18s; }
+  #yes:hover { transform: translateY(-2px); box-shadow: 0 16px 32px -10px rgba(91,60,196,.7); }
+  #yes.grow { transform: scale(1.06); }
+  #no { font-size: 1rem; font-weight: 400; color: var(--muted); background: var(--paper); border: 1.5px solid var(--line); border-radius: 999px; padding: 14px 24px; touch-action: none; user-select: none; -webkit-user-select: none; transition: left .42s cubic-bezier(.22,.61,.36,1), top .42s cubic-bezier(.22,.61,.36,1), transform .3s; z-index: 20; }
+  #no.loose { position: fixed; margin: 0; box-shadow: 0 10px 30px -12px rgba(28,24,48,.35); }
+  button:focus-visible, #name:focus-visible { outline: 3px solid var(--marker); outline-offset: 3px; }
+
+  .signed { display: grid; gap: 18px; text-align: center; justify-items: center; }
+  .signed .stamp { font-size: .85rem; font-weight: 500; color: var(--marker); }
+  .signature { font-family: var(--hand); font-weight: 700; font-size: clamp(3.4rem, 15vw, 4.8rem); line-height: 1; color: var(--marker); clip-path: inset(0 0 0 100%); animation: ink 1.3s .15s cubic-bezier(.65,0,.35,1) forwards; padding-inline: 8px; }
+  .sigline { width: min(320px, 90%); height: 1.5px; background: var(--ink); opacity: .25; margin-top: -10px; }
+  .signed p { margin: 0; line-height: 1.6; }
+  .signed .when { color: var(--muted); font-size: .92rem; font-variant-numeric: tabular-nums; }
+  .msg { background: var(--marker-soft); border-radius: 14px; padding: 14px 16px; font-size: .98rem; line-height: 1.6; color: var(--ink); user-select: all; -webkit-user-select: all; width: 100%; box-sizing: border-box; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .wa { font: 500 1rem var(--body); background: #25d366; color: #05331b; border-radius: 999px; padding: 13px 24px; text-decoration: none; }
+  .copy { font-size: 1rem; font-weight: 400; background: transparent; color: var(--ink); border: 1.5px solid var(--line); border-radius: 999px; padding: 12px 22px; }
+
+  footer { text-align: center; color: var(--muted); font-size: .85rem; }
+
+  .spark { position: fixed; width: 8px; height: 8px; border-radius: 2px; pointer-events: none; z-index: 30; animation: fall 1.6s cubic-bezier(.2,.6,.4,1) forwards; }
+
+  @keyframes shimmer { to { background-position: 100% 0 } }
+  @keyframes draw { to { stroke-dashoffset: 0 } }
+  @keyframes rise { from { opacity: .001; transform: translateY(10px) } to { opacity: 1; transform: none } }
+  @keyframes ink { to { clip-path: inset(0 0 0 0) } }
+  @keyframes fall { to { transform: translate(var(--dx), var(--dy)) rotate(var(--r)); opacity: 0 } }
+  @media (prefers-reduced-motion: reduce) {
+    .pact li, h1 .scribble path, .signature, #yes { animation: none; }
+    h1 .scribble path { stroke-dashoffset: 0; }
+    .signature { clip-path: none; }
+    #no { transition: none; }
+    .spark { display: none; }
+  }
+  @media (max-width: 420px) {
+    body { padding-block: 32px 72px; }
+    main { gap: 44px; }
+    section.sign { padding: 26px 18px; }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <div class="eyebrow">אמנה צוותית</div>
+    <h1>האמנה <span class="scribble">שלנו<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 13 C 50 4, 110 18, 196 7"/></svg></span></h1>
+    <p class="lead">תמצות הדברים החשובים לצוות לב ארי.</p>
+  </header>
+
+  <ol class="pact" aria-label="ההתחייבויות שלנו">
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>מעבריות גבוהה</h2>
+      <p>ציניות היא כלי חשוב, וצריך לבחור בתבונה איך ומתי להשתמש בה.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>ראש פתוח</h2>
+      <p>שומעים עד הסוף, גם כשבא לקפוץ באמצע.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>לא באנו לבזבז זמן</h2>
+      <p>יש לנו פלטפורמה. מנצלים אותה עד הסוף.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>נפתחים</h2>
+      <p>מנצלים את ההזדמנות, גם כשזה קצת מביך.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>כל אחד מביא את הסיפור שלו</h2>
+      <p>רגעים שעשו אותנו מי שאנחנו. אחד מספר, כולם מקשיבים.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>אחד בשביל השני</h2>
+      <p>צריך משהו? יש לך את כולנו.</p></li>
+    <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+      <h2>החיבור לא נגמר פה</h2>
+      <p>גם כשנחזור הביתה, אנחנו עדיין החבר'ה.</p></li>
+  </ol>
+
+  <section class="sign" id="sign" aria-labelledby="signTitle">
+    <div id="ask">
+      <div style="display:grid;gap:20px">
+        <h2 id="signTitle">יאללה יא שקית, תאשר</h2>
+        <label class="field" for="name">שם
+          <input id="name" type="text" autocomplete="given-name" placeholder="איך קוראים לך?" maxlength="28">
+        </label>
+        <p class="hint" id="hint" aria-live="polite"></p>
+        <div class="choices">
+          <button type="button" id="yes">אני מסכים</button>
+          <button type="button" id="no" aria-describedby="noDesc">אני לא מסכים</button><span id="noDesc" hidden>הכפתור הזה מתחמק</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="signed" id="signed" hidden>
+      <div class="stamp" id="stamp" tabindex="-1">חתום</div>
+      <div class="signature" id="sigName"></div>
+      <div class="sigline" aria-hidden="true"></div>
+      <p class="when" id="when"></p>
+      <p>סגרנו. עכשיו תגיד לחבר'ה.</p>
+      <div class="msg" id="msg"></div>
+      <div class="actions">
+        <a class="wa" id="wa" href="#" target="_blank" rel="noopener">שליחה בוואטסאפ</a>
+        <button type="button" class="copy" id="copy" aria-live="polite">העתקת ההודעה</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>כל הזכויות שמורות לחגי הגבר. כל מי שחותם על האמנה הזאת חייב לחגי את כל נכסיו.</footer>
+</main>
+
+<script>
+(function () {
+  var nameEl = document.getElementById('name');
+  var hint = document.getElementById('hint');
+  var yes = document.getElementById('yes');
+  var no = document.getElementById('no');
+
+  try { var saved = localStorage.getItem('amana-name'); if (saved) nameEl.value = saved; } catch (e) {}
+
+  function sign() {
+    var n = nameEl.value.trim();
+    if (!n) {
+      hint.textContent = 'קודם שם, אחי.';
+      nameEl.focus();
+      return;
+    }
+    try { localStorage.setItem('amana-name', n); } catch (e) {}
+    var d = new Date();
+    var dateStr = d.getDate() + '.' + (d.getMonth() + 1) + '.' + d.getFullYear();
+    var text = 'חתמתי על האמנה. אני בפנים ✍️ ' + n;
+    document.getElementById('sigName').textContent = n;
+    document.getElementById('when').textContent = 'נחתם ב-' + dateStr;
+    document.getElementById('msg').textContent = text;
+    document.getElementById('wa').setAttribute('href', 'https://wa.me/?text=' + encodeURIComponent(text));
+    document.getElementById('ask').hidden = true;
+    no.hidden = true;
+    document.getElementById('signed').hidden = false;
+    document.getElementById('sign').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    burst();
+    setTimeout(function () { document.getElementById('stamp').focus({ preventScroll: true }); }, 400);
+  }
+  yes.addEventListener('click', sign);
+  nameEl.addEventListener('keydown', function (e) { if (e.key === 'Enter') sign(); });
+
+  document.getElementById('copy').addEventListener('click', function () {
+    var btn = this, t = document.getElementById('msg').textContent;
+    function fallback() {
+      var r = document.createRange(); r.selectNodeContents(document.getElementById('msg'));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = 'ההודעה מסומנת, אפשר להעתיק';
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(function () { btn.textContent = 'הועתק'; }, fallback);
+    } else { fallback(); }
+  });
+
+  /* the runaway "no": slips away the moment a finger or pointer reaches it */
+  var lines = ['לא לא', 'הכפתור הזה לא בעניין', 'ממש מנסה, אה?', 'הוא בורח ממך', 'יש פה כפתור צבעוני, רק אומר', 'טוב, לחץ על הצבעוני'];
+  var tries = 0, last = 0;
+  function flee(px, py) {
+    var now = Date.now();
+    if (now - last < 300) return;
+    last = now;
+    var r = no.getBoundingClientRect();
+    if (!no.classList.contains('loose')) {
+      no.style.left = r.left + 'px'; no.style.top = r.top + 'px';
+      no.classList.add('loose');
+      void no.offsetWidth;
+    }
+    var vv = window.visualViewport;
+    var w = r.width, h = r.height, vw = vv ? vv.width : window.innerWidth, vh = vv ? vv.height : window.innerHeight;
+    var keep = [yes, nameEl, hint].map(function (el) { return el.getBoundingClientRect(); });
+    var x, y, n = 0, ok;
+    do {
+      x = 12 + Math.random() * Math.max(1, vw - w - 24);
+      y = 70 + Math.random() * Math.max(1, vh - h - 140);
+      n++;
+      var far = px == null || Math.hypot(x + w / 2 - px, y + h / 2 - py) > 200;
+      var clear = keep.every(function (k) { return x + w < k.left - 14 || x > k.right + 14 || y + h < k.top - 14 || y > k.bottom + 14; });
+      ok = far && clear;
+    } while (n < 40 && !ok);
+    no.style.left = x + 'px'; no.style.top = y + 'px';
+    hint.textContent = lines[Math.min(tries, lines.length - 1)];
+    tries++;
+    if (tries >= 3) yes.classList.add('grow');
+  }
+  no.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') flee(e.clientX, e.clientY); });
+  no.addEventListener('pointerdown', function (e) { e.preventDefault(); flee(e.clientX, e.clientY); });
+  no.addEventListener('touchstart', function (e) { e.preventDefault(); var t = e.touches[0]; flee(t.clientX, t.clientY); }, { passive: false });
+  no.addEventListener('click', function (e) { e.preventDefault(); flee(e.clientX, e.clientY); });
+  no.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flee(null, null); } });
+  /* scrolling or resizing sends it back to its place next to the purple button */
+  function home() { if (!no.classList.contains('loose')) return; no.classList.remove('loose'); no.style.left = ''; no.style.top = ''; }
+  var lastY = window.scrollY;
+  window.addEventListener('scroll', function () { if (Math.abs(window.scrollY - lastY) > 40) { lastY = window.scrollY; home(); } }, { passive: true });
+  window.addEventListener('resize', home);
+
+  function burst() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var colors = ['#6a3fe0', '#ff5a5f', '#00a6a6', '#f5a400', '#2fb24c', '#2d7ff9', '#e8489b', '#ff7a1a'];
+    var cx = window.innerWidth / 2, cy = window.innerHeight / 2;
+    for (var i = 0; i < 46; i++) {
+      var s = document.createElement('span');
+      s.className = 'spark';
+      s.style.left = cx + 'px'; s.style.top = cy + 'px';
+      s.style.background = colors[i % colors.length];
+      var a = Math.random() * Math.PI * 2, dist = 120 + Math.random() * 260;
+      s.style.setProperty('--dx', Math.cos(a) * dist + 'px');
+      s.style.setProperty('--dy', Math.sin(a) * dist + 160 + 'px');
+      s.style.setProperty('--r', (Math.random() * 540 - 270) + 'deg');
+      document.body.appendChild(s);
+      (function (el) { setTimeout(function () { el.remove(); }, 1800); })(s);
+    }
+  }
+})();
+</script>
+</body>
+</html>
